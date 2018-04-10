@@ -42,6 +42,8 @@ namespace Test_task1
             }
             */
 
+
+
             /*
             Console.WriteLine("Hi. Make your choise");
             int answer = Convert.ToInt32(Console.ReadLine());
