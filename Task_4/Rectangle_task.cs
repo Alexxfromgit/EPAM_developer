@@ -8,15 +8,15 @@ namespace Rectangle_task
 {
     class Rectangle
     {
-        private int sideA { get; set; }
-        private int sideB { get; set; }
+        private double sideA { get; set; }
+        private double sideB { get; set; }
         
-        public int GetSideA() //First method for working with sideA
+        public double GetSideA() //First method for working with sideA
         {
             return sideA;
         }
         
-        public int GetSideB() //Second method for working with sideB
+        public double GetSideB() //Second method for working with sideB
         {
             return sideB;
         }
@@ -27,24 +27,24 @@ namespace Rectangle_task
             sideB = 4;
         }
         
-        public Rectangle(int sideA) //With 1 parameter constructor
+        public Rectangle(double sideA) //With 1 parameter constructor
         {
             this.sideA = sideA;
             sideB = 5;
         }
                 
-        public Rectangle(int sideA, int sideB) //With 2 parameters constructor
+        public Rectangle(double sideA, double sideB) //With 2 parameters constructor
         {
             this.sideA = sideA;
             this.sideB = sideB;
         }
                 
-        public int Area() //Method for calculating area
+        public double Area() //Method for calculating area
         {
             return sideA * sideB;
         }
                 
-        public int Perimeter() //Method for calculating perimeter
+        public double Perimeter() //Method for calculating perimeter
         {
             return sideA + sideB;
         }
@@ -86,8 +86,8 @@ namespace Rectangle_task
                         
             //The smallest Perimeter
             int count = 0;
-            int perim = 0;
-            int value = newRectangle[0].Perimeter();
+            double perim = 0;
+            double value = newRectangle[0].Perimeter();
             for (int i = 0; i < newRectangle.Length; i++)
             {
                 perim = newRectangle[i].Perimeter();
@@ -102,8 +102,8 @@ namespace Rectangle_task
 
             //The biggest Area
             int count2 = 0;
-            int area = 0;
-            int value2 = newRectangle[0].Area();
+            double area = 0;
+            double value2 = newRectangle[0].Area();
 
             for (int i = 0; i < newRectangle.Length; i++)
             {
