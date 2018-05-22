@@ -1,0 +1,5 @@
+/root/Documents/EPAM_developer/Monodev/testname/testname/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/root/Documents/EPAM_developer/Monodev/testname/testname/bin/Debug/testname.exe.mdb
+/root/Documents/EPAM_developer/Monodev/testname/testname/bin/Debug/testname.exe
+/root/Documents/EPAM_developer/Monodev/testname/testname/obj/x86/Debug/testname.exe
+/root/Documents/EPAM_developer/Monodev/testname/testname/obj/x86/Debug/testname.exe.mdb
