@@ -1,2 +1,2 @@
-# EPAM_developer
+# developer
 Csharp developer program
